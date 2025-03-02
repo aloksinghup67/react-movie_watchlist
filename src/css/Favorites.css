@@ -49,4 +49,12 @@
 .movies-grid > * {
   animation: fadeIn 0.3s ease-out forwards;
 }
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  justify-content: center; /* Center align items */
+  align-items: center;
+  padding: 1rem;
+}
 
